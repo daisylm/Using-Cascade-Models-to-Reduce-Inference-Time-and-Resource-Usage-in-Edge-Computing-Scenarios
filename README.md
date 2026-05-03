@@ -1,2 +1,6 @@
-# Using-Cascade-Models-to-Reduce-Inference-Time-and-Resource-Usage-in-Edge-Computing-Scenarios
-The goal of the project is to develop a method to carry out anomaly detection in IP traffic. In few words, the principle of the method is to build a profile of each IP address under the form of a small graph, called graphlet. We then build a model using Support Vector Machine to distinguish normal from malicious end hosts from an annotated trace. 
+The main objective is to use probabilistic confidence estimation ( Gaussian NLL heteroscedas-
+tic models) from the first model to decide whether the obtained prediction is reliable or we should
+invoke the second model’s prediction. This mechanism optimizes the accuracy, efficiency and
+trade-off by reserving computational resources only for ambiguous cases. Our implementation
+demonstrates signification reductions in inference time and usage while maintaining accuracy in
+terms of predictions. 
